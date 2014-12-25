@@ -23,3 +23,5 @@ Template[getTemplate('postUpvote')].events({
     });
   }
 });
+
+

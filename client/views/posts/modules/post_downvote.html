@@ -1,0 +1,16 @@
+<template name="postDownvote">
+  <div class="post-rank"><span>{{oneBasedRank}}</span></div>
+  {{#if upvoted}}
+    <span class="downvote-link voted action">
+      <span style="color: rgba(122,192,228,0.8);">You left this group!</span>
+      <i class="icon-check action-icon"></i>
+      <span class="action-label">{{_ "downvoted"}}</span>
+    </span>
+  {{else}}
+    <a class="downvote-link not-voted action" href="#">
+      <span style="color: #DD3416;">Leave this group:</span>
+      <i class="icon-up action-icon"></i>
+      <span class="action-label">{{_ "downvote"}}</span>
+    </a>
+  {{/if}}
+</template>
