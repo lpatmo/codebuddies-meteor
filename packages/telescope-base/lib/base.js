@@ -173,10 +173,6 @@ postModules = [
     template: 'postUpvote',
     order: 1
   },
-   {
-    template: 'postDownvote',
-    order: 60
-  },
   {
     template: 'postContent', 
     order: 5

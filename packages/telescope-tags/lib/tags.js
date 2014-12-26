@@ -31,7 +31,7 @@ preloadSubscriptions.push('categories');
 
 adminNav.push({
   route: 'categories',
-  label: 'Categories',
+  label: 'Study Groups',
   description: 'add_and_remove_categories'
 });
 
