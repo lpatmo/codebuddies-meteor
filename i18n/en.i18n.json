@@ -70,9 +70,9 @@
   // Post Schema
   "createdAt": "Created At",
   "postedAt": "Posted At",
-  "url": "URL",  
-  "title": "Title",
-  "body": "Body",
+  "url": "Hangout Location URL",  
+  "title": "Title of Study Session",
+  "body": "What are you going to cover? What are your learning goals?",
   "htmlBody": "HTML Body",
   "viewCount": "View Count",
   "commentCount": "Comment Count",
