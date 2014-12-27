@@ -1,0 +1,22 @@
+<template name="heroPage">
+	<div class="grid2 grid-module2">
+
+
+		 {{#if hasCategories}}
+      <div>
+        <ul role="menu" aria-labelledby="dLabel" class="hero-menu">
+          {{#each categories}}
+            <li>
+              <a href="{{categoryLink}}">
+                <span class="category-name menu-label">{{name}}</span>
+              </a>
+            </li>
+          {{/each}}
+        </ul>
+      </div>
+
+  {{/if}}
+
+
+	</div>
+</template>
