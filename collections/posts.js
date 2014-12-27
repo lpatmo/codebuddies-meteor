@@ -32,7 +32,7 @@ postSchemaObject = {
   },
   url: {
     type: String,
-    label: "URL",
+    label: "Google Hangout URL",
     optional: true,
     autoform: {
       editable: true,
@@ -42,7 +42,7 @@ postSchemaObject = {
   title: {
     type: String,
     optional: false,
-    label: "Title",
+    label: "Study Group Name",
     editable: true,
     autoform: {
       editable: true

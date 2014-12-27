@@ -1,3 +1,7 @@
 <template name="postDomain">
-  {{#if url}}<span class="post-domain"><a href="{{domain}}" target="_blank" style="background: green; color: white; padding: 5px 10px;">Enter the hangout</a></span>{{/if}}
+  {{#if isLoggedIn }}
+  	{{#if url}}<span class="post-domain"><a href="{{domain}}" target="_blank" style="background: green; color: white; padding: 5px 10px;">Enter the hangout</a></span>
+  	{{/if}}
+  {{else}}<span class="post-domain"><a href="#" target="_blank" style="background: green; color: white; padding: 5px 10px;">Log in to enter the hangout</a></span>
+  {{/if}}
 </template>
