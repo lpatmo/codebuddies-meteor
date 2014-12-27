@@ -1,2 +1,17 @@
-.content-wrapper p { width: 50%; margin: 0 auto; line-height: 1; text-align: center;}
+
+.content-wrapper p { 
+	width: 90%; 
+	margin: 0 auto;
+	line-height: 1;
+	text-align: center;
+}
+.post-heading { 
+	a.post-title:link, a.post-title:visited {
+		color: #000;
+	}
+	a.post-title:visited {
+		color: #4e555d;
+	}
+}
+
 
