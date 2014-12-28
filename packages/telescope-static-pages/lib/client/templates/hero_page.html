@@ -1,10 +1,13 @@
 <template name="heroPage">
+
+	{{#if isHomePage}}
 	<div class="grid2 grid-module2">
 
 
 		 {{#if hasCategories}}
       <div>
         <ul role="menu" aria-labelledby="dLabel" class="hero-menu">
+        	<li><a href="/">All Study Groups</a></li>
           {{#each categories}}
             <li>
               <a href="{{categoryLink}}">
@@ -15,8 +18,7 @@
         </ul>
       </div>
 
-  {{/if}}
-
-
+  		{{/if}}
 	</div>
+	  {{/if}}
 </template>

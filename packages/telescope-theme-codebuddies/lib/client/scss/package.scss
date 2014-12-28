@@ -14,4 +14,17 @@
 	}
 }
 
+ul.hero-menu {
+	margin-bottom: 0;
+	line-height: 0;
+li {
+	display: inline;
+	margin: 0px 2px;
+	a:hover { color: dodgerblue; background: #eee;}
+	a {  background: dodgerblue; color: #fff;  padding: 5px 7px;}
+}
+}
 
+
+a.hangout-button { background: #1ca060; padding: 5px 10px; color: white;}
+div.inner-wrapper { background: #eee; }

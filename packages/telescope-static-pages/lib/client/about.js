@@ -5,13 +5,24 @@ Meteor.startup(function() {
 			template: getTemplate('aboutPage')
 		});
 	});
+	Template[getTemplate('heroPage')].helpers({
+		isHomePage: function() {
+			if (Router.current().location.get().path == '/') {
+				return true;
+			} else {
+				return false;
+			}
+		}
+	});
+});
+
+heroModules.push({
+ 				 template: 'heroPage'
 });
 
 primaryNav.push('aboutLink');
 
-heroModules.push({
-  template: 'heroPage'
-});
+
 
 Meteor.startup(function () {
   Template[getTemplate('heroPage')].helpers({

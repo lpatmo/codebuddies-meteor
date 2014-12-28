@@ -51,7 +51,7 @@ postHeading.push({
 });
   
 // push "categoriesMenu" template to primaryNav
-primaryNav.push('categoriesMenu');
+//primaryNav.push('categoriesMenu'); //Removed 'categories' tab from menu.
 
 // push "categories" property to addToPostSchema, so that it's later added to postSchema
 addToPostSchema.push(
