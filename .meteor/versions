@@ -75,10 +75,12 @@ meteorhacks:subs-manager@1.2.2
 minifiers@1.1.2
 minimongo@1.0.5
 mobile-status-bar@1.0.1
+momentjs:moment@2.8.4
 mongo-livedata@1.0.6
 mongo@1.0.9
 mrt:cookies@0.3.0
 mrt:jquery-hotkeys@0.0.1
+mrt:jquery-ui@1.9.2
 mrt:mailchimp@0.4.0
 mrt:moment@2.8.1
 npm-bcrypt@0.7.7
@@ -96,6 +98,7 @@ reactive-var@1.0.3
 reload@1.1.1
 retry@1.0.1
 routepolicy@1.0.2
+rzymek:fullcalendar@2.2.3
 sacha:juice@0.1.0
 sacha:spin@2.0.4
 service-configuration@1.0.2

@@ -3,7 +3,7 @@
 	width: 90%; 
 	margin: 0 auto;
 	line-height: 1;
-	text-align: center;
+	//text-align: center;
 }
 .post-heading { 
 	a.post-title:link, a.post-title:visited {
@@ -25,6 +25,9 @@ li {
 }
 }
 
+.herotext { margin-bottom: 15px;
+	p { margin: 0;}
+}
 
 a.hangout-button { background: #1ca060; padding: 5px 10px; color: white;}
 div.inner-wrapper { background: #eee; }

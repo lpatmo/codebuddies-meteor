@@ -8,6 +8,7 @@ Template[getTemplate('postDomain')].helpers({
 });
 
 Template[getTemplate('postDomain')].events({
+
 	'click .hangout-button': function(e, instance){
     var post = this;
 	    if(!Meteor.user()){
