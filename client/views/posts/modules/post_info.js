@@ -9,8 +9,8 @@ Template[getTemplate('postInfo')].helpers({
     return getTemplate("postAuthor");
   },
   membersList: function() {
-  	//console.log(this.upvoters);
-  	console.log(Meteor.users.find({_id: {$in: this.upvoters}}));
-  	return Meteor.users.find({_id: {$in: this.upvoters}});
+  	console.log(this.upvoters);
+  //	console.log(Meteor.users.find({_id: {$in: this.upvoters}}));
+  	//return Meteor.users.find({_id: {$in: this.upvoters}});
   }
 });
