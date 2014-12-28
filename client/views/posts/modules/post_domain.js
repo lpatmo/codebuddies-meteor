@@ -6,3 +6,15 @@ Template[getTemplate('postDomain')].helpers({
     return a
   }
 });
+
+Template[getTemplate('postDomain')].events({
+	'click .hangout-button': function(e, instance){
+    var post = this;
+	    if(!Meteor.user()){
+	      e.preventDefault();
+	      Router.go('atSignIn');
+	      flashMessage(i18n.t("please_log_in_first"), "info");
+	  	}
+    }
+  });
+
