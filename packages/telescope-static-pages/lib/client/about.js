@@ -7,12 +7,15 @@ Meteor.startup(function() {
 	});
 	Template[getTemplate('heroPage')].helpers({
 		isHomePage: function() {
-			if (Router.current().location.get().path == '/') {
+			var r = Router.current().location.get().path;
+			console.log(r);
+			if ( r == '/' || r.indexOf("category") > -1) {
 				return true;
 			} else {
 				return false;
 			}
 		}
+
 	});
 });
 
