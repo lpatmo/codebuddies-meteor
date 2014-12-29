@@ -127,7 +127,7 @@
   "suggest_title": "Suggest title",
   "url": "HANGOUT LINK",
   "short_url": "Short URL",
-  "body": "Answer these questions: What will you be learning? What resource link(s) or tutorial are you using? When is the next hangout?",
+  "body": "Answer these questions: 1) What will you be learning, and what tutorial are you using? 2) When is the next hangout, and what are you going to cover?",
   "category": "Study Group",
   "inactive_": "Inactive?",
   "sticky_": "Sticky?",
