@@ -24,7 +24,12 @@ ul.hero-menu {
 	}
 }
 
-.herotext { margin-bottom: 15px; background: rgba(255,255,255,0.95);}
+.herotext { 
+	margin-bottom: 15px; background: rgba(0,0,0,0.8);
+	h3, p {color: white;}
+	a { color: dodgerblue;}
+}
+
 
 a.hangout-button { background: #1ca060; padding: 5px 10px; color: white;}
 div.inner-wrapper { background: #eee; }
