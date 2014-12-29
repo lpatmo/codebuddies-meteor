@@ -7,6 +7,8 @@ p {
 .post-heading { 
 	a.post-title:link, a.post-title:visited {
 		color: #000;
+		font-size: 1em;
+		line-height: 1.1;
 	}
 	a.post-title:visited {
 		color: #4e555d;
@@ -51,3 +53,5 @@ span.upvote-link { display: inline-block; margin-top: 21px; width: 100px;}
 
 .footer a {background: dodgerblue; padding: 10px; color: white;}
 .footer a:hover {background: rgba(30,144,255, 0.8);}
+
+.btn {background: dodgerblue !important;}
