@@ -21,4 +21,4 @@ The goal of this platform is to help users schedule google hangouts more easily 
 5. Change the labels on the submit form. (Linda)
 
 ###Help Contribute
-1. Leave a note in the chatroom: [chatroom](https://gitter.im/lpatmo/codebuddies-meteor)
+1. Leave a note in the chatroom: [Chatroom](https://gitter.im/lpatmo/codebuddies-meteor)
