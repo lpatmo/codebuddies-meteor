@@ -79,8 +79,4 @@ Package.onUse(function (api) {
 
   // -------------------------------- 3. Variables to export --------------------------------
 
-  api.export([
-    'myFunction'
-  ]);
-
 });

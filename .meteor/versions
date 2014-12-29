@@ -19,6 +19,7 @@ blaze-tools@1.0.1
 blaze@2.0.3
 boilerplate-generator@1.0.1
 callback-hook@1.0.1
+cb-theme@0.1.0
 ccan:cssreset@1.0.0
 check@1.0.2
 chuangbo:cookie@1.1.0
@@ -132,7 +133,6 @@ telescope-singleday@0.1.0
 telescope-static-pages@0.1.0
 telescope-tags@0.0.0
 telescope-theme-base@0.0.0
-telescope-theme-codebuddies@0.1.0
 telescope-theme-hubble@0.0.0
 telescope-update-prompt@0.1.0
 templating@1.0.9
