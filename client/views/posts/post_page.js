@@ -10,6 +10,9 @@ Template[getTemplate('post_page')].helpers({
   },
   comment_list: function () {
     return getTemplate('comment_list');
+  },
+  membersList: function() {
+      return Meteor.users.find({_id: {$in: this.upvoters}});
   }
 });
 

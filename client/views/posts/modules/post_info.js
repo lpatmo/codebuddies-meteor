@@ -7,8 +7,5 @@ Template[getTemplate('postInfo')].helpers({
   },
   getTemplate: function() {
     return getTemplate("postAuthor");
-  },
-  membersList: function() {
-      return Meteor.users.find({_id: {$in: this.upvoters}});
   }
 });
