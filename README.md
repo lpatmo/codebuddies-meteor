@@ -18,6 +18,7 @@ The goal of this platform is to help users schedule google hangouts more easily 
 16. Question: migrating the DB from meteor.com to compose.io -- is it possible?
 17. Allow users to give award other karma points for being helpful during hangouts (OPTIONAL - not important)
 18. Question: is it possible to allow an admin to add other "admins" for that post -- so that multiple people can edit a single post? Have to figure out logic.
+19. Figure out how to move edits to post_page.html and post_page.js over into a package so that changes aren't overwritten.
 
 ###Closed Issues
 9. Create static pages - "what can X let you do?" UPDATE: Created the /about page. (Linda)

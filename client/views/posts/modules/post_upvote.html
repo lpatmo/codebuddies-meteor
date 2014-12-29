@@ -2,13 +2,13 @@
   <div class="post-rank"><span>{{oneBasedRank}}</span></div>
   {{#if upvoted}}
     <span class="upvote-link voted action">
-      <span style="color: rgba(122,192,228,0.8);">You joined this study group!</span>
+      <span class="message-joined">You joined this study group!</span>
       <i class="icon-check action-icon"></i>
       <span class="action-label">{{_ "upvoted"}}</span>
     </span>
   {{else}}
     <a class="upvote-link not-voted action" href="#">
-      <span style="color: #DD3416;">Join this study group:</span>
+      <span class="message-upvote">Join this study group:</span>
       <i class="icon-up action-icon"></i>
       <span class="action-label">{{_ "upvote_"}}</span>
     </a>
