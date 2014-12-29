@@ -1,5 +1,5 @@
 ###About
-Project extension of codebuddies.org. Forked from Telescope. Open-sourced.
+Project platform for [codebuddies.org](http://codebuddies.org). Forked from Telescope. Open-sourced.
 
 The goal of this platform is to help users schedule google hangouts more easily to learn to code together.
 
@@ -21,4 +21,4 @@ The goal of this platform is to help users schedule google hangouts more easily 
 5. Change the labels on the submit form. (Linda)
 
 ###Help Contribute
-1. Leave a note in the chatroom: [https://gitter.im/lpatmo/codebuddies-meteor](Chatroom)
+1. Leave a note in the chatroom: [chatroom](https://gitter.im/lpatmo/codebuddies-meteor)
