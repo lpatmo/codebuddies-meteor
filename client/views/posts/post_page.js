@@ -12,7 +12,10 @@ Template[getTemplate('post_page')].helpers({
     return getTemplate('comment_list');
   },
   membersList: function() {
-      return Meteor.users.find({_id: {$in: this.upvoters}});
+    users = Meteor.users.find({_id: {$in: this.upvoters}});
+    console.log(users);
+    return users;
+     // return Meteor.users.find({_id: {$in: this.upvoters}});
   }
 });
 
