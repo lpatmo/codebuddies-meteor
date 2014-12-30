@@ -17,15 +17,15 @@ The goal of this platform is to help users schedule google hangouts more easily 
 15. Figure out a better notification system -- i.e. have some text on the post that says "next hangout meeting is at: ... "
 16. Question: migrating the DB from meteor.com to compose.io -- is it possible?
 17. Allow users to give award other karma points for being helpful during hangouts (OPTIONAL - not important)
-18. Question: is it possible to allow an admin to add other "admins" for that post -- so that multiple people can edit a single post? Have to figure out logic.
+18. Question: is it possible to allow an admin to add other "moderators" for that post -- so that multiple people can edit a single post? Have to figure out logic.
 19. Figure out how to move edits to post_page.html and post_page.js over into a package so that changes aren't overwritten.
 #####Advice from @tinabeans:
 20. The icon (up caret) for joining a study group is a little hard to understand at first. I thought it would open a menu of some sort upward. My advice is just to remove it. If icons don't clarify (make recognition of something faster), then maybe we don't need it.
 21. In the header nav, instead of "view" you could give the user more context by calling it "study groups" ("view" is a pretty generic word and doesn't give much info). A good rule of thumb for navigation in general is tell the user "what" rather than "how."
-22. The little blue buttons at the bottom: because they are styled as buttons I tend to think they are performing an action of some sort. Maybe style them to be less prominent? Also on the homepage they are competing visually with the tabs across the top.
+22. The little blue buttons at the bottom: because they are styled as buttons I tend to think they are performing an action of some sort. Maybe style them to be less prominent? Also on the homepage they are competing visually with the tabs across the top. (NOTE: Ignore for now. Only shows up if you put <a> tags in the footer as an admin.)
 23. Speaking of the homepage tabs, I would find some way to make them more prominent (maybe bigger) and maybe continue them across all the other pages that have lists of hangouts. I was caught off guard when they went away after I clicked on some of the "View" options.
 24. When you click on View and select one of the options under it, it would be nice to have some kind of title at the top of the page that indicates which view you're currently looking at. It's always good to help the user orient themselves within the context of the larger site.
-25. It might be potentially confusing to someone what the difference between joining a study group and joining a hangout is. Suggestion: use a different word from "join" - like "subscribe to study group" / "launch hangout" or something like that.
+25. It might be potentially confusing to someone what the difference between joining a study group and joining a hangout is. Suggestion: use a different word from "join" - like "subscribe to study group" / "launch hangout" or something like that. (Alan)
 26. It's not totally clear what insights are at first. Perhaps title the comment field area underneath the study group description "Insights" to let people know that's what it is.
 27. On the study group page, the "join hangout" button gets kind of lost.
 28. Maybe clarify on the homepage that "hangouts" refers to Google Hangouts. People might think you mean hangouts in the physical sense. I don't think the word "hangout" has been entirely co-opted by Google yet. :)
