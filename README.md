@@ -21,7 +21,7 @@ The goal of this platform is to help users schedule google hangouts more easily 
 19. Figure out how to move edits to post_page.html and post_page.js over into a package so that changes aren't overwritten.
 #####Advice from @tinabeans:
 20. The icon (up caret) for joining a study group is a little hard to understand at first. I thought it would open a menu of some sort upward. My advice is just to remove it. If icons don't clarify (make recognition of something faster), then maybe we don't need it.
-21. In the header nav, instead of "view" you could give the user more context by calling it "study groups" ("view" is a pretty generic word and doesn't give much info). A good rule of thumb for navigation in general is tell the user "what" rather than "how."
+21. Get rid of "View"
 22. The little blue buttons at the bottom: because they are styled as buttons I tend to think they are performing an action of some sort. Maybe style them to be less prominent? Also on the homepage they are competing visually with the tabs across the top. (NOTE: Ignore for now. Only shows up if you put <a> tags in the footer as an admin.)
 23. Speaking of the homepage tabs, I would find some way to make them more prominent (maybe bigger) and maybe continue them across all the other pages that have lists of hangouts. I was caught off guard when they went away after I clicked on some of the "View" options.
 24. When you click on View and select one of the options under it, it would be nice to have some kind of title at the top of the page that indicates which view you're currently looking at. It's always good to help the user orient themselves within the context of the larger site.
