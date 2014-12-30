@@ -22,7 +22,7 @@ ul.hero-menu {
 		display: inline;
 		margin: 0px 2px;
 		a:hover { color: white; background: rgba(30,144,255, 0.8);}
-		a {  background: dodgerblue; color: #fff;  padding: 5px 7px;}
+		a {  background: dodgerblue; color: #fff;  padding: 5px 7px; font-size: 1.4em;}
 	}
 }
 
@@ -37,7 +37,7 @@ a.hangout-button { background: #1ca060; padding: 5px 10px; color: white;}
 div.inner-wrapper { background: #eee; }
 
 .members ul li { display: inline;
-	a {color: #3b5998; display: inline-block;}
+	a {color: #3b5998; display: inline-block; }
 	a.member-name { height: 60px; width: 50px;}
 	.avatar-image, .avatar-initials { height: 50px; width: 50px;}
 }
@@ -49,7 +49,6 @@ body {background: url(//codebuddies.org/images/books2.jpg) no-repeat center cent
 
 span.message-upvote { color: #DD3416; }
 span.message-joined { color: rgba(122,192,228,0.8);}
-span.upvote-link { display: inline-block; margin-top: 21px; width: 100px;}
 
 .footer a {background: dodgerblue; padding: 10px; color: white;}
 .footer a:hover {background: rgba(30,144,255, 0.8);}
